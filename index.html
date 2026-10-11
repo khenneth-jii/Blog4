@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A reflection on cybersecurity risk assessment and auditing.">
+  <title>Risk Assessment Through an Auditor's Eyes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#">
+        <span class="brand-mark">A</span>
+        Audit Notes
+      </a>
+      <span class="nav-label">Cybersecurity · Reflection</span>
+    </div>
+  </header>
+
+  <main>
+    <article class="article">
+
+      <div class="article-topline">
+        <span class="category">RISK ASSESSMENT</span>
+        <span class="reading-time">8–10 min read</span>
+      </div>
+
+      <h1>Looking at Our Risk Assessment Form Through an Auditor’s Eyes: Do We Really Know What We Need to Protect?</h1>
+
+      <p class="dek">
+        A reflection on asset inventories, ownership, evidence,
+        and how to check whether security controls really work.
+      </p>
+
+      <div class="article-meta">
+        <div class="avatar">AR</div>
+        <div>
+          <p class="author">Student Reflection</p>
+          <p class="meta-detail">Cybersecurity · Risk Management</p>
+        </div>
+      </div>
+
+      <div class="hero-rule"></div>
+
+      <section>
+        <h2>Introduction</h2>
+
+        <p>When we first look at a Risk Assessment Form, it is easy to focus on the possible threats, the damage they could cause, and the solutions that might prevent them. We may identify risks such as unauthorized access, data loss, outdated software, weak passwords, or system failures. However, looking at the form through the eyes of an auditor makes us think about something deeper: Can the organization actually prove that it knows its assets, understands the risks, and has working security controls in place?</p>
+
+        <p>An organization may have security rules, antivirus software, backups, and access restrictions, but these things do not automatically mean that it is secure. It also needs to know which assets it has, who is responsible for protecting them, and whether its security measures are doing what they are supposed to do.</p>
+
+        <p>Revisiting our group's Risk Assessment Form helped us understand that identifying a risk is only one part of the job. A good risk assessment should also help the organization decide what needs protection first, assign responsibility, and provide a clear way to check whether the recommended solutions are working. This is where an audit becomes important. Instead of simply accepting what the organization says, an auditor looks for records, test results, and other evidence to support those claims.</p>
+      </section>
+
+      <section>
+        <h2>Understanding What the Organization Owns</h2>
+
+        <p>The first thing an auditor would want to know is whether the organization has a complete and updated list of its assets. An asset is anything valuable that the organization depends on to operate. This includes computers, servers, applications, network equipment, online accounts, databases, documents, and information belonging to customers or employees.</p>
+
+        <p>At first, creating an asset list might sound simple. However, organizations can easily overlook things such as old devices, software installed by employees, cloud storage accounts, backup systems, and accounts that are no longer being used. These assets may still hold important information or provide access to other systems.</p>
+
+        <p>For example, a company might have a list of its main computers but forget to include laptops used outside the office or files stored in an online service. If these assets are missing from the list, the organization may also forget to apply the proper security settings, updates, and access restrictions to them.</p>
+
+        <p>According to the Center for Internet Security (CIS, n.d.), organizations should maintain an accurate inventory of their assets, including devices that connect to their networks physically, remotely, or through cloud environments. This matters because an organization cannot properly protect something it does not know exists.</p>
+
+        <p>From an auditor's point of view, the question is not simply whether an inventory exists. The auditor would also check whether the list is complete, accurate, and regularly updated. The inventory should match the assets actually being used by the organization.</p>
+
+        <p>This means that our risk assessment should not stop at naming the systems that might be affected by a threat. It should also consider whether the organization has a reliable way to identify and track those systems. Without this basic information, even a well-planned security solution may leave important assets unprotected.</p>
+      </section>
+
+      <section>
+        <h2>Identifying the Assets That Matter Most</h2>
+
+        <p>Not every asset has the same level of importance. Losing a spare computer may cause inconvenience, but losing important business records or customer information could create much bigger problems.</p>
+
+        <p>The most important assets are usually those that the organization needs to continue operating, protect private information, and provide its services. These may include:</p>
+
+        <ul>
+          <li><strong>Sensitive information:</strong> Customer records, employee information, financial records, and confidential business documents.</li>
+          <li><strong>Critical systems:</strong> Servers, databases, applications, and other systems needed for daily operations.</li>
+          <li><strong>User and administrator accounts:</strong> Accounts that provide access to important files, applications, and system settings.</li>
+          <li><strong>Network equipment:</strong> Routers, switches, firewalls, and other devices that help systems communicate securely.</li>
+          <li><strong>Backup copies:</strong> Stored copies of important information that help the organization recover after data loss or a system failure.</li>
+          <li><strong>Software and cloud services:</strong> Applications and online platforms that store, process, or provide access to organizational information.</li>
+        </ul>
+
+        <p>These assets should be classified according to their value, sensitivity, and the damage that could happen if they were lost, changed without permission, or made unavailable.</p>
+
+        <p>For example, information that contains private customer details should receive stronger protection than information that is already available to the public. A critical database may require strict access controls, regular backups, and close monitoring. A less important internal document may need fewer restrictions, depending on its contents and purpose.</p>
+
+        <p>A simple classification system could use four levels: public, internal, confidential, and restricted. Public information can be shared openly, while internal information is intended for approved organizational use. Confidential information needs stronger protection, and restricted information should have access limited to specifically authorized users.</p>
+
+        <p>The exact labels may differ between organizations. What matters is that the rules are clear and consistently followed.</p>
+
+        <p>The National Institute of Standards and Technology (NIST) explains that the Cybersecurity Framework 2.0 helps organizations understand, assess, prioritize, and communicate cybersecurity risks (Pascoe et al., 2024). This supports the idea that asset classification should guide decisions about security. The organization should spend more time and resources protecting assets that could cause the greatest harm if something went wrong.</p>
+      </section>
+
+      <section>
+        <h2>Who Is Responsible for Each Asset?</h2>
+
+        <p>Another important question is whether the organization knows who is responsible for each asset. An asset can be listed in a spreadsheet, but that does not guarantee that someone is making sure it remains secure.</p>
+
+        <p>For this reason, an organization should assign an owner to every important asset. An asset owner is the person or role responsible for making decisions about how the asset is used, protected, and maintained. This does not mean that the owner must personally perform every technical task.</p>
+
+        <p>For example, a department may be responsible for the information it collects, while the IT team manages the servers and access settings that protect it. A system administrator may install updates, while a manager approves who should have access to certain records.</p>
+
+        <p>These responsibilities should be written down rather than left to assumptions. If a security problem happens, the organization should know who needs to respond, who can approve changes, and who must be informed.</p>
+
+        <p>An auditor would look for evidence of these responsibilities in asset records, assigned roles, access approval forms, internal policies, and maintenance records. The auditor would also check whether these responsibilities are still correct. Someone who has changed roles or left the organization should not remain listed as the active owner of an asset without proper review.</p>
+
+        <p>One possible gap is shared responsibility without clear accountability. For instance, the IT department may believe that a department manager is responsible for approving access, while the manager assumes that IT handles everything. This confusion can lead to delays, unnecessary access, or missed security updates.</p>
+
+        <p>Our risk assessment recommendations would be stronger if each treatment included a responsible role, a deadline, and a way to confirm completion. This makes it easier to move from simply recommending a solution to actually carrying it out.</p>
+      </section>
+
+      <section>
+        <h2>What Evidence Would an Auditor Require?</h2>
+
+        <p>One of the biggest lessons from looking at a risk assessment as an auditor is that statements are not the same as proof.</p>
+
+        <p>An organization might say that its systems are regularly updated, that only authorized users can access sensitive information, or that backups are performed every day. These statements may be true, but an auditor would still need evidence to confirm them.</p>
+
+        <p>The evidence required would depend on the control being reviewed. Examples include:</p>
+
+        <div class="evidence-list">
+
+          <div class="evidence-item">
+            <span class="evidence-number">01</span>
+            <div>
+              <h3>Asset inventory records</h3>
+              <p>The auditor would request the current asset inventory and compare it with available device lists, system records, or approved asset discovery reports. This would help identify missing assets, outdated entries, and devices that should not be connected to the organization's network.</p>
+            </div>
+          </div>
+
+          <div class="evidence-item">
+            <span class="evidence-number">02</span>
+            <div>
+              <h3>Access control records</h3>
+              <p>To check whether access is properly restricted, the auditor could review user account lists, permission settings, approval records, and records showing that former employees' accounts were disabled. The goal would be to confirm that people have access based on their actual responsibilities.</p>
+            </div>
+          </div>
+
+          <div class="evidence-item">
+            <span class="evidence-number">03</span>
+            <div>
+              <h3>Software and update records</h3>
+              <p>If the organization claims that its systems are patched regularly, the auditor could review update reports, software versions, and records of unresolved updates. These records can help show whether the organization is maintaining its systems or leaving them exposed to known problems.</p>
+            </div>
+          </div>
+
+          <div class="evidence-item">
+            <span class="evidence-number">04</span>
+            <div>
+              <h3>Backup and recovery evidence</h3>
+              <p>A backup report may show that a backup job completed, but this does not automatically prove that the information can be recovered. An auditor would look for restoration test results, recovery procedures, and records showing whether the organization can restore important files within an acceptable period.</p>
+            </div>
+          </div>
+
+          <div class="evidence-item">
+            <span class="evidence-number">05</span>
+            <div>
+              <h3>Security monitoring records</h3>
+              <p>Logs, alerts, incident reports, and records of completed investigations can help demonstrate whether suspicious activity is being detected and handled. The auditor may also check whether the organization reviews alerts regularly and follows up on serious events.</p>
+            </div>
+          </div>
+
+          <div class="evidence-item">
+            <span class="evidence-number">06</span>
+            <div>
+              <h3>Policies, training, and approval records</h3>
+              <p>Written policies can explain what employees are expected to do. Training records, signed acknowledgments, and documented approvals can provide further evidence that the rules have been communicated and followed.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <p>The important point is that evidence should be relevant, current, and reliable. A policy written several years ago cannot prove that a security control is working today. Likewise, a screenshot of one successful test does not necessarily prove that the control works consistently.</p>
+
+        <p>An auditor may need to inspect records, interview responsible staff, observe processes, and perform suitable tests. The findings should be based on what the evidence supports rather than on assumptions.</p>
+      </section>
+
+      <section>
+        <h2>What Gaps Might an Auditor Discover?</h2>
+
+        <p>Even when an organization has a Risk Assessment Form, an audit may reveal gaps between its plans and its actual security practices.</p>
+
+        <p>One possible gap is an incomplete asset inventory. If the organization does not record every important device, application, and cloud service, it may miss systems that need updates or stronger protection.</p>
+
+        <p>Another possible gap is unclear asset ownership. If no one is clearly responsible for reviewing permissions, checking backups, or approving changes, important tasks may be forgotten.</p>
+
+        <p>A third gap is weak evidence. The organization may claim that it performs security checks without keeping records of when they were completed, what was tested, or what happened when a problem was found. Without these records, it becomes difficult to confirm that the controls work as intended.</p>
+
+        <p>An auditor might also discover that security measures exist but are not tested regularly. For example, a backup process could appear successful until someone actually tries to restore the files. An access control policy could look correct on paper while old accounts remain active. A software update policy could exist even though some devices are still running unsupported versions.</p>
+
+        <p>There may also be a gap between identifying a risk and completing the recommended treatment. A risk assessment might recommend stronger passwords, multi-factor authentication, regular patching, or improved monitoring. However, if no one is assigned to implement these changes, the recommendations may remain unfinished.</p>
+
+        <p>These are examples of issues an auditor would investigate, not confirmed findings about the organization assessed by our group. The actual findings would need to be supported by the group's assessment information and the evidence available during an audit.</p>
+
+        <p>This distinction is important because an auditor should not label a control as failed simply because documentation was not immediately available. The auditor should investigate whether the control exists, whether it is operating, and whether the organization can provide enough reliable evidence to support its claims.</p>
+      </section>
+
+      <section>
+        <h2>How an Asset Inventory and Audit Checklist Can Improve Our Recommendations</h2>
+
+        <p>After revisiting the Risk Assessment Form, it becomes clear that an asset inventory and an audit checklist would make our recommended treatments more useful and easier to follow.</p>
+
+        <p>The asset inventory would provide a central place to record important details about each asset, such as its name, type, location, purpose, classification, owner, responsible department, and last review date. Where appropriate, it could also include software versions, backup arrangements, access requirements, and maintenance schedules.</p>
+
+        <p>This would help the organization understand which assets need the most attention. If a critical system stores confidential information, the inventory can show that it requires stronger access restrictions, reliable backups, regular updates, and appropriate monitoring.</p>
+
+        <p>The audit checklist would then help verify whether these protections are actually in place. It could include questions such as:</p>
+
+        <ul class="checklist">
+          <li>Is the asset included in the current inventory?</li>
+          <li>Has an owner been assigned?</li>
+          <li>Is the asset classified according to the sensitivity of its information?</li>
+          <li>Are access permissions reviewed and approved?</li>
+          <li>Are required software updates completed?</li>
+          <li>Are backups performed and restoration tests documented?</li>
+          <li>Are security alerts reviewed and investigated?</li>
+          <li>Is there evidence that the recommended treatment has been completed?</li>
+          <li>Have identified problems been assigned to a responsible role with a target completion date?</li>
+        </ul>
+
+        <p>Each checklist item should have a clear result, such as pass, fail, or not applicable, along with a space for evidence, findings, and corrective actions. This would make the review more consistent and reduce the chance of overlooking important details.</p>
+
+        <p>The checklist should also be used regularly rather than only when a major problem occurs. The review schedule can depend on the importance of the asset, the level of risk, and the organization's requirements. Critical assets may need more frequent checks than lower-risk assets.</p>
+
+        <p>Most importantly, the inventory and checklist should work together. The inventory identifies what needs protection, while the checklist helps confirm whether the protection is effective. When a check fails, the organization should record the issue, assign responsibility, set a reasonable deadline, and test the control again after the correction.</p>
+
+        <p>This approach also helps our group make more practical recommendations. Instead of saying only that an organization should improve its security, we can explain what needs to change, who should handle it, what evidence should be kept, and how success will be measured.</p>
+      </section>
+
+      <section>
+        <h2>Conclusion</h2>
+
+        <p>Looking at our group's Risk Assessment Form through an auditor's eyes changes the way we think about cybersecurity. It is not enough to identify threats and suggest solutions. An organization also needs to understand what it owns, know which assets are most important, assign clear responsibilities, and maintain evidence that its security controls are working.</p>
+
+        <p>A complete asset inventory helps prevent important systems from being overlooked. Clear ownership makes people accountable for maintaining security. Reliable audit evidence helps confirm whether the organization's policies and controls work in practice. Regular checklists and follow-up reviews help identify problems before they become more serious.</p>
+
+        <p>The main lesson is that cybersecurity should not depend on assumptions or promises. It should be supported by clear records, assigned responsibilities, regular testing, and actions that can be checked. By combining an updated asset inventory with a practical audit checklist, our group can strengthen its recommended risk treatments and help the organization manage its risks in a more organized and realistic way.</p>
+
+        <p>In the end, a good Risk Assessment Form should not just describe what could go wrong. It should help the organization take responsibility for what it needs to protect and show, through reliable evidence, that it is doing something about the risks.</p>
+      </section>
+
+      <section class="references">
+        <h2>References</h2>
+
+        <p class="reference">
+          Center for Internet Security. (n.d.).
+          <em>CIS Critical Security Control 1: Inventory and control of enterprise assets.</em>
+          <a href="https://www.cisecurity.org/controls/inventory-and-control-of-enterprise-assets"
+             target="_blank" rel="noopener noreferrer">
+            https://www.cisecurity.org/controls/inventory-and-control-of-enterprise-assets
+          </a>
+        </p>
+
+        <p class="reference">
+          Pascoe, C., Quinn, S., &amp; Scarfone, K. (2024).
+          <em>The NIST Cybersecurity Framework (CSF) 2.0</em>
+          (NIST Cybersecurity White Paper No. 29).
+          National Institute of Standards and Technology.
+          <a href="https://doi.org/10.6028/NIST.CSWP.29"
+             target="_blank" rel="noopener noreferrer">
+            https://doi.org/10.6028/NIST.CSWP.29
+          </a>
+        </p>
+      </section>
+
+      <footer class="article-footer">
+        <span>Cybersecurity &amp; Risk Management</span>
+        <span>End of article</span>
+      </footer>
+
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Audit Notes · Student blog project</p>
+  </footer>
+
+</body>
+</html>
